@@ -1,0 +1,46 @@
+{
+    "name": "vatsim/oauth2-vatsim",
+    "description": "VATSIM OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William McKinnerney",
+            "email": "git@williammck.net",
+            "homepage": "https://williammck.net"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authentication",
+        "vatsim"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "league/oauth2-client": "^2.0"
+    },
+    "require-dev": {
+        "ext-json": "*",
+        "mockery/mockery": "^1.4",
+        "phpunit/phpunit": "^9.3",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vatsim\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vatsim\\OAuth2\\Client\\Test\\": "test/src/"
+        }
+    },
+    "scripts": {
+        "lint": "phpcs src/ test/ --standard=PSR12 -sp",
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html coverage/"
+    }
+}
