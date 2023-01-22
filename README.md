@@ -8,9 +8,7 @@ This package provides VATSIM Connect support for the PHP League's [OAuth 2.0 Cli
 
 ## Requirements
 
-To use this package, it will be necessary to have a VATSIM Connect client ID and client
-secret. These are referred to as `{vatsim-client-id}` and `{vatsim-client-secret}`
-in the documentation.
+To use this package, it will be necessary to have a VATSIM Connect client ID and client secret.
 
 Please follow the [VATSIM Connect instructions][oauth-setup] to create the required credentials.
 
@@ -26,7 +24,7 @@ composer require vatsim/oauth2-vatsim
 
 ## Usage
 
-Usage is the same as [The League's OAuth client](league-usage), using `\Vatsim\OAuth2\Client\Provider\Vatsim` as the provider.
+Usage is the same as [The League's OAuth client][league-usage], using `\Vatsim\OAuth2\Client\Provider\Vatsim` as the provider.
 
 [league-usage]: https://oauth2-client.thephpleague.com/usage/
 
