@@ -1,6 +1,6 @@
 # VATSIM Connect Provider for OAuth 2.0 Client
 
-[![Build Status](https://img.shields.io/github/workflow/status/vatsimnetwork/oauth2-vatsim-php/test/main)](https://github.com/vatsimnetwork/oauth2-vatsim-php/actions/workflows/test.yaml)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/vatsimnetwork/oauth2-vatsim-php/test.yaml?branch=main)](https://github.com/vatsimnetwork/oauth2-vatsim-php/actions/workflows/test.yaml)
 [![License](https://img.shields.io/packagist/l/vatsim/oauth2-vatsim)](https://github.com/vatsimnetwork/oauth2-vatsim-php/blob/main/LICENSE)
 [![Latest Stable Version](https://img.shields.io/packagist/v/vatsim/oauth2-vatsim)](https://packagist.org/packages/vatsim/oauth2-vatsim)
 
